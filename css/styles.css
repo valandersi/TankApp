@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 29px 20px;
+}
+
+.menu >ul {
+    display: flex;
+    
+}
+
+.menu a{
+    display: block;
+    opacity: 0.84;
+    color: #2d394c;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 47px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 23px 17px;
+    
+}
+.banner{
+    background-color: #54a3da;
+background-image: linear-gradient(to top, rgba(147, 147, 147, 0.02) 0%, rgba(217, 239, 255, 0.02) 44%, rgba(193, 193, 193, 0.02) 100%);
+}
